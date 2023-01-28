@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.7.0'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.7.0'
+    id 'net.mamoe.mirai-console' version '2.11.1'
+}
+
+group = 'top.cutestar.networkTools'
+version = '1.1.2'
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public' }
+    mavenCentral()
+}
+
+dependencies{
+}
